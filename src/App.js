@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SelectComponent from './my_select_componrnt/SelectComponenet.jsx'
+import 'antd/dist/antd.css';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <SelectComponent />
       </header>
     </div>
   );
