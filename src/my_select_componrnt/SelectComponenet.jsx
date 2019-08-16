@@ -29,7 +29,7 @@ export default class SelectComponenet extends React.Component
     }
 
     makeRequestIfNeeded(newInput) {
-        if (newInput.length == 0) {
+        if (newInput.length === 0) {
             return;
         }        
         else if (newInput.length < 3) {
